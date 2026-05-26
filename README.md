@@ -213,3 +213,18 @@ Permiten separar o dividir contenido visualmente.
 ```
 
 ---
+
+# CSS (cascadig style sheet)
+cascada de hojas de estilops, es el documento que nos permita darle estilo a nuestros elementos, posicionar, escalar,formato, color y transcisiones.
+# maneras de apllicar css a nuestro documento html
+### 1. en linea
+ este manera de aplicar css es haciendo uso de los atributos de un elemento en este en especial usando el atributo 'style'
+'''html
+<p style="color:pink;size:23px">este es el texto </p>
+'''
+
+>[!TIP] en el caso de lo embebidos y los de archivos externos hay que entender  sobre selectores:son maneras de como yo identifico un elemneto dentro de un documento html, selector por etiqueta, id y clases, en el diseño web se recomienda solo los selectores de tipo clase.
+### 2. embebidos
+este tipo de aplicar estilo nos permite hacer uso de la etiqueta style para poder estilar nuestros elementos,
+por convencio est etiqueta al ser de configuracion se debe usar en el 'head'.
+### 3. archivo externo
