@@ -226,5 +226,14 @@ cascada de hojas de estilops, es el documento que nos permita darle estilo a nue
 >[!TIP] en el caso de lo embebidos y los de archivos externos hay que entender  sobre selectores:son maneras de como yo identifico un elemneto dentro de un documento html, selector por etiqueta, id y clases, en el diseño web se recomienda solo los selectores de tipo clase.
 ### 2. embebidos
 este tipo de aplicar estilo nos permite hacer uso de la etiqueta style para poder estilar nuestros elementos,
-por convencio est etiqueta al ser de configuracion se debe usar en el 'head'.
+por convencio est etiqueta al ser de configuracion se debe usar en el `head`.
 ### 3. archivo externo
+es la manera correcta y mas usada para aplicar estilo dentro de un documento `html`, para asociar un archivo externo lo tenemos
+que hacer  
+>[!TIP] **Observacion:** veriguar que es una ruta relativa y que es una ruta obsoluta completa del archivo ejm:`/home/jalvarez/Proyectos/claseuno`, y una ruta relativa es la dirreccion actual del proyecto ejem:`,/`
+**ejemplo**
+```txt
+## tenemos en min carpeta del proyecto un archico llamado 'logo.png' como acceder a este 
+archivo usabdo su ruta absoluta
+home/jalvarez/Proyectos/claseuno/logo.png
+#usando la ruta relativa 

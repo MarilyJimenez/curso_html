@@ -1,0 +1,35 @@
+/*selectores basicos*/
+/*Por etiqueta*/
+p{
+    color: blue;/*esta propiedad bes para darle color al contenido*/
+}
+/*Por clase (reutilizble)*/
+.boton{
+    background: red;
+}
+/*Por atributo*/
+input[type="text"]{
+    color: brown;
+}
+/*combinado: hijo directo*/
+nav > a{
+    text-decoration: none;/*propiedad para quitar los subrayados*/
+}
+/*MODELO DE CAJA*/
+div{
+    background-color: pink;
+
+    width: 50%;/*amcho del elemnto*/
+    height: 50px;/*alto de elemento*/
+
+
+   /*paddig de usa para el espacio que debe tener el contenido dentro de la caja*/
+    padding: 5px;
+    padding: 10px;
+    /*padding:5px; esto le dara 5 pixeles a los 4 lados del padding*/
+
+    border-radius: 8px; /*esquins redondeadas*/
+    border: 2px solid black;/**/
+
+    margin: 20px;
+}
